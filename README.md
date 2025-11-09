@@ -33,15 +33,21 @@ You can click any of the `>` buttons below to see a more detailed explanation to
   <summary>
 2. Centralized miner whitelists and blacklists are prohibited. Restricting mining by coldkey, axon IP, or IP range is prohibited.
   </summary>
+
 A snippet from a discord conversation about this subject:
+
 > Kat: I think some subnets are doing this because individuals are exploiting the subnet by deploying their exploit across large numbers of neurons.  Now, I would agree with you if you said, "okay, but they should fix their subnet mechanism instead of banning IPs" and I agree, because whack-a-mole is a losing proposition and wastes time.  But I also know that coding is not easy for everyone, and both finding and fixing the exploit can also be a process of finding something that works while not introducing another exploit.  Is there a balance to be found here, such as "this should be a limited tool, used to buy you time to fix the problem, and not a matter of routine application in lieu of fixing the problem"?
+
 > Rhef: No, because when (not if) a subnet owner discriminates a miner for using multiple uids based on something that the miner can easily obfuscate, the miner will obfuscate it. Coldkeys are free, I have a script somewhere which produces 10 million coldkeys per hour per core. Axon IPs cost $5/month. Miners will defeat these measures in less than a day, but it won't be without cost.
 > 
 > If the miners obfuscate their coldkeys and IPs, we will lose transparency. From this moment onward in this subnet it will seem at a first glance that we have >240 unique miners, but that won't really be true, we'll only have a handful. Sooner or later someone will run a basic investigation using a block explorer only to find that all of those miner coldkeys actually send everything they earn to 2 or 3 wallets, and they'll tweet about it.
 > 
 > From the perspective of Bittensor ecosystem as a whole, that one day when miners adjust their operation to use multiple coldkeys and hotkeys is NOT worth all the twitter drama that will follow the investigations, therefore the subnet owners shouldn't selfishly employ measures which are trivial to defeat and harmful to transparency.
+
 > Kat: I'm sure there are several owners doing this, and should know why it's a shortcut that's going to turn into a longcut, and why there are better ways to handle it.
+
 > Rhef: I didn't say there is a better way to handle it. Nevertheless blocking by IP and coldkey is just harmful. You can blind yourself and say "I don't see any problems", but others will still see it and you will get caught. Don't do it.
+
 </details>
 <details>
   <summary>
