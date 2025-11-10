@@ -65,7 +65,7 @@ A snippet from a discord conversation about this subject:
   <summary>
 5. Subnet code must be open-source, unless a prior exception has been granted by the burn police (typically for an anti-fraud module).
   </summary>
-  TODO
+  The holders have a right to validate and asking them to run code that cannot be inspected basically rolls back to the "subnet owner has absolute trust", which breaks the security model the subnets are expected to follow. This would just end up being fraud in many cases. 
 </details>
 <details>
   <summary>
@@ -89,19 +89,19 @@ A snippet from a discord conversation about this subject:
   <summary>
 9. Enabling or tolerating harmful or criminal services, including malware, CSAM, botnets and mixers, is absolutely prohibited.
   </summary>
-  TODO
+  Mixer in particular deserves recognition here. In 2025 there was a "Taonado" subnet, which basically facilitated money laundering. The problem is that it was not just the subnet owner who could face realistically convictable (based on the learnings of others in crypto space) criminal charges, but also the miners, who are likely not aware that mining sn113 might end up in jail... but also the validator operators and even their delegators, who, via staking to validators that run the code that supports money laundering, veeery indirectly, maybe involved in the whole scheme. It needs to be noted that as of 2025-11-10 sn113 is on burn code, not because burn-police enforced such move, but it sort of happened organically, it's unclear how, the decentralized hive mind somehow burned it without anyone in particular explicitly investigating and shutting it down. 
 </details>
 <details>
   <summary>
 10. Validator code must actually work.
   </summary>
-  One of the things that unfortunately happens from time to time is an unstable validator code owner says every piece of stake should be delegated to them because it's easier for them to manage the infrastructure and whatnot. But then they couldn't control over the entire subnet, and we have to trust that they run the code that is in the repository and not something else. This is not the way.
+  One of the things that unfortunately happens from time to time is when a subnet owner that wrote unstable validator code says that every piece of stake should be delegated to them because it's easier for them to manage the infrastructure, troubleshoot the environment etc... but then they couldn't control over the entire subnet, and we have to trust that they run the code that is in the repository and not something else. This is not the way.
 </details>
 <details>
   <summary>
 11. New miners must be able to join the subnet and survive the immunity process.
   </summary>
-  TODO
+  Again, there were cases where this was exploited by a self-mining subnet owner who has made it easier for him to not have to really fight for the uid slots. Bittensor is permissionless, so a highly performing miner should be able to join to improve the digital commodity the subnet produces. If that's not the case then the relative quality will deteriorate with time as miners become complacent due to limited competition. 
 </details>
 
 # Consequences
