@@ -53,13 +53,13 @@ A snippet from a discord conversation about this subject:
   <summary>
 3. Custodial burn wallets are prohibited.
   </summary>
-  These can be commandeered illegally by the subnet owner or hacked. There are viable alternatives to this solution which are trustless and decentralized (Treasury contract, multi-sign wallets)
+  These can be commandeered illegally by the subnet owner or hacked. There are viable alternatives to this solution which are trustless and decentralized (primarily sending emissions to neurons of the subnet owner, which burns them)
 </details>
 <details>
   <summary>
 4. Using centralized solutions whenever the protocol supports a decentralized equivalent is frowned upon.
   </summary>
-  This usually creates a single point of failure or an opportunity for the subnet owner to cheat. It is not really about the subnet owner cheating or not - the community can believe that they are honest, but they can be hacked or compromised. They can have the malicious employee, and there will always be a doubt on whether the subnet does what it is supposed to. 
+  This usually creates a single point of failure or an opportunity for the subnet owner to cheat. It is not really about the subnet owner cheating or not - the community can believe that they are honest, but they can be hacked or compromised. They can have the malicious employee, and there will always be a doubt on whether the subnet does what it is supposed to. There are other solutions that should be used (treasury contract, multi-sign wallets)
 </details>
 <details>
   <summary>
